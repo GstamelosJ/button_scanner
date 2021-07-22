@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../ttgo_controller"
+		},
+		{
+			"name": "Button_Scanner",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
