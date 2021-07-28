@@ -42,7 +42,7 @@ void buttons_check()
   bouncer_butt1.update();
   if (bouncer_butt1.fell())
   {
-    buttons_pressed=0;
+    buttons_pressed=1;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
@@ -50,7 +50,7 @@ void buttons_check()
   bouncer_butt2.update();
   if (bouncer_butt2.fell())
   {
-    buttons_pressed=1;
+    buttons_pressed=2;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
@@ -58,7 +58,7 @@ void buttons_check()
   bouncer_butt3.update();
   if (bouncer_butt3.fell())
   {
-    buttons_pressed=2;
+    buttons_pressed=3;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
@@ -66,7 +66,7 @@ void buttons_check()
   bouncer_butt4.update();
   if (bouncer_butt4.fell())
   {
-    buttons_pressed=3;
+    buttons_pressed=4;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
@@ -75,7 +75,7 @@ void buttons_check()
   bouncer_butt5.update();
   if (bouncer_butt5.fell())
   {
-    buttons_pressed=4;
+    buttons_pressed=5;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed); 
     digitalWrite(LED_BUILTIN,HIGH);
@@ -83,7 +83,7 @@ void buttons_check()
   bouncer_butt6.update();
   if (bouncer_butt6.fell())
   {
-    buttons_pressed=5;
+    buttons_pressed=6;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
@@ -91,7 +91,7 @@ void buttons_check()
   bouncer_butt7.update();
   if (bouncer_butt7.fell())
   {
-    buttons_pressed=6;
+    buttons_pressed=7;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
@@ -99,7 +99,7 @@ void buttons_check()
   bouncer_butt8.update();
   if (bouncer_butt8.fell())
   {
-    buttons_pressed=7;
+    buttons_pressed=8;
     Serial.print("Button pressed= ");
     Serial.println(buttons_pressed);
     digitalWrite(LED_BUILTIN,HIGH);
