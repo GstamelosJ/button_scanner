@@ -38,7 +38,7 @@ Bounce bouncer_butt8=Bounce();
 void buttons_check()
 {
   //Serial.println("Button scan enter");
-  buttons_pressed=0xff;
+  
   bouncer_butt1.update();
   if (bouncer_butt1.fell())
   {
@@ -153,4 +153,5 @@ void requestEvent() {
   // as expected by master
   Serial.print("I2C request sent, button pressed resonce: ");
   Serial.println(buttons_pressed);
+  buttons_pressed=0xff;
 }
